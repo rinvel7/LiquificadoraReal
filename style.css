@@ -1,0 +1,52 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0; 
+
+}
+
+h1 { 
+    display: flex;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    justify-content: center;
+    background-color: rgb(164, 120, 206);
+ 
+}
+
+p {
+    display: flex;
+    margin: 550px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    justify-content: center;
+    background-color: rgb(164, 120, 206);
+}
+
+.blender {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    /*background-color: red;*/
+    background-image: url("img/liquificadoraApagada.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blender.active {
+    background-image: url("img/liquificadoraEncendida.gif");
+}
+
+.blender-button {
+    margin: 350px auto 0px;
+    width: 70px;
+    height: 70px;
+}
+
